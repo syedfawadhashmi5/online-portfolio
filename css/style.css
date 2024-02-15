@@ -1047,3 +1047,92 @@ padding:20px 80px;
 .contact-item a:hover {
     color: #ccc; /* Change color on hover if needed */
 }
+
+
+/* mobile responsive  */
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 381px) and (max-width: 767px) {
+  
+    .footer .box-content {
+        flex-direction: column;
+    } 
+    .contact-info {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .BrandName h1 {
+        letter-spacing: 0.5rem;
+        line-height: 23px;
+    }
+    .portfolio-filter-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio .portfolio-filter-menu ul li {
+        margin: 5px 15px;
+    }
+    .image-container {
+        margin-top: 15px;
+    }
+    .owl-carousel .owl-item img {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .skills .row {
+        padding: 0px 20px;
+    }
+    .resume .content-left .title-resume h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .title-resume {
+        text-align: center;
+    }
+    #services .service .icon {
+        position: relative;
+    }
+    #services .service .text {
+        padding-left: 0px;
+    }
+    #services .service .box-num {
+        top: 21%;
+        left: 130px;
+    }
+    #services .service {
+        padding: 30px 20px;
+    }
+    #services {
+        padding: 20px 25px;
+    }
+    #services .service .box-num {
+        top: 25%;
+        left: 76%;
+    }
+    .about .content-left .content h2 {
+        font-size: 25px;
+    }
+    .home-intro .intro-content .row .intro-caption h2 {
+        font-size: 21px;
+        line-height: 25px;
+        font-weight: 700;
+    }
+    .button {
+        margin-top: 18px;
+    }
+    .home-intro .intro-content .intro-caption span {
+        margin-bottom: 14px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .BrandName h1 {
+        font-size: 10px;
+    }
+    .header-socials {
+        left: -230px;
+    }
+  }
