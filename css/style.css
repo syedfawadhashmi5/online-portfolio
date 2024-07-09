@@ -1124,6 +1124,9 @@ padding:20px 80px;
     .button {
         margin-top: 18px;
     }
+    .container.skills {
+        display: none;
+    }
     .home-intro .intro-content .intro-caption span {
         margin-bottom: 14px;
         font-size: 22px;
